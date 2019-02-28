@@ -1,0 +1,3 @@
+use warmup
+db.createCollection('users')
+show collections

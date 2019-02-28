@@ -1,0 +1,620 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'uninstall', 'cookie-parser' ]
+2 info using npm@6.4.1
+3 info using node@v10.15.1
+4 verbose config Skipping project config: /home/ubuntu/.npmrc. (matches userconfig)
+5 verbose npm-session d9181cf0a97362e3
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 timing stage:loadCurrentTree Completed in 678ms
+9 silly install loadIdealTree
+10 silly install cloneCurrentTreeToIdealTree
+11 timing stage:loadIdealTree:cloneCurrentTree Completed in 3ms
+12 silly install loadShrinkwrap
+13 timing stage:loadIdealTree:loadShrinkwrap Completed in 212ms
+14 silly uninstall loadAllDepsIntoIdealTree
+15 silly install loadAllDepsIntoIdealTree
+16 http fetch GET 200 https://registry.npmjs.org/jade 293ms
+17 http fetch GET 200 https://registry.npmjs.org/morgan 347ms
+18 silly pacote range manifest for jade@~1.11.0 fetched in 363ms
+19 warn deprecated jade@1.11.0: Jade has been renamed to pug, please install the latest version of pug instead of jade
+20 http fetch GET 304 https://registry.npmjs.org/cookie-parser 388ms (from cache)
+21 silly pacote range manifest for morgan@~1.9.0 fetched in 377ms
+22 silly pacote range manifest for cookie-parser@~1.4.3 fetched in 463ms
+23 http fetch GET 200 https://registry.npmjs.org/constantinople 97ms
+24 http fetch GET 200 https://registry.npmjs.org/clean-css 101ms
+25 http fetch GET 200 https://registry.npmjs.org/character-parser 106ms
+26 http fetch GET 200 https://registry.npmjs.org/void-elements 124ms
+27 http fetch GET 200 https://registry.npmjs.org/transformers 130ms
+28 http fetch GET 200 https://registry.npmjs.org/with 73ms
+29 http fetch GET 200 https://registry.npmjs.org/jstransformer 136ms
+30 http fetch GET 200 https://registry.npmjs.org/uglify-js 140ms
+31 silly pacote range manifest for constantinople@~3.0.1 fetched in 148ms
+32 warn deprecated constantinople@3.0.2: Please update to at least constantinople 3.1.1
+33 silly pacote range manifest for clean-css@^3.1.9 fetched in 156ms
+34 silly pacote version manifest for character-parser@1.2.1 fetched in 164ms
+35 silly pacote range manifest for void-elements@~2.0.1 fetched in 165ms
+36 silly pacote version manifest for transformers@2.1.0 fetched in 169ms
+37 warn deprecated transformers@2.1.0: Deprecated, use jstransformer
+38 http fetch GET 304 https://registry.npmjs.org/mkdirp 174ms (from cache)
+39 silly pacote range manifest for with@~4.0.0 fetched in 113ms
+40 silly pacote version manifest for jstransformer@0.0.2 fetched in 176ms
+41 http fetch GET 304 https://registry.npmjs.org/commander 304ms (from cache)
+42 http fetch GET 200 https://registry.npmjs.org/commander 155ms (from cache)
+43 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 158ms (from cache)
+44 http fetch GET 200 https://registry.npmjs.org/basic-auth 268ms
+45 http fetch GET 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.29.tgz 267ms
+46 http fetch GET 200 https://registry.npmjs.org/acorn 266ms
+47 http fetch GET 200 https://registry.npmjs.org/css 247ms
+48 http fetch GET 200 https://registry.npmjs.org/promise 267ms
+49 http fetch GET 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.2.5.tgz 210ms
+50 silly pacote range manifest for mkdirp@~0.5.0 fetched in 458ms
+51 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-2.6.0.tgz 139ms
+52 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-2.8.1.tgz 134ms
+53 silly pacote range manifest for uglify-js@^2.4.19 fetched in 478ms
+54 silly pacote range manifest for basic-auth@~2.0.0 fetched in 391ms
+55 silly pacote range manifest for uglify-js@~2.2.5 fetched in 428ms
+56 http fetch GET 304 https://registry.npmjs.org/source-map 452ms (from cache)
+57 silly pacote range manifest for commander@~2.6.0 fetched in 634ms
+58 silly pacote range manifest for commander@2.8.x fetched in 476ms
+59 http fetch GET 200 https://registry.npmjs.org/css/-/css-1.0.8.tgz 194ms
+60 http fetch GET 200 https://registry.npmjs.org/promise/-/promise-2.0.0.tgz 196ms
+61 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-2.7.0.tgz 212ms
+62 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-1.2.2.tgz 183ms
+63 silly pacote range manifest for source-map@~0.5.1 fetched in 19ms
+64 http fetch GET 200 https://registry.npmjs.org/is-promise 107ms
+65 http fetch GET 200 https://registry.npmjs.org/acorn-globals 176ms
+66 silly pacote range manifest for css@~1.0.8 fetched in 498ms
+67 silly pacote range manifest for promise@~2.0 fetched in 514ms
+68 silly pacote range manifest for acorn@^2.1.0 fetched in 533ms
+69 silly pacote range manifest for acorn@^1.0.1 fetched in 231ms
+70 silly pacote range manifest for is-promise@^2.0.0 fetched in 151ms
+71 http fetch GET 200 https://registry.npmjs.org/acorn-globals/-/acorn-globals-1.0.9.tgz 47ms
+72 http fetch GET 200 https://registry.npmjs.org/uglify-to-browserify 82ms
+73 http fetch GET 200 https://registry.npmjs.org/yargs 101ms
+74 http fetch GET 200 https://registry.npmjs.org/graceful-readlink 90ms
+75 silly pacote range manifest for acorn-globals@^1.0.3 fetched in 298ms
+76 http fetch GET 200 https://registry.npmjs.org/optimist 96ms
+77 http fetch GET 200 https://registry.npmjs.org/css-parse 81ms
+78 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.1.43.tgz 95ms
+79 silly pacote range manifest for uglify-to-browserify@~1.0.0 fetched in 126ms
+80 silly pacote range manifest for graceful-readlink@>= 1.0.0 fetched in 125ms
+81 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-3.10.0.tgz 44ms
+82 silly pacote range manifest for source-map@~0.1.7 fetched in 132ms
+83 silly pacote range manifest for optimist@~0.3.5 fetched in 131ms
+84 silly pacote version manifest for css-parse@1.0.4 fetched in 117ms
+85 silly pacote range manifest for is-promise@~1 fetched in 24ms
+86 silly pacote range manifest for yargs@~3.10.0 fetched in 177ms
+87 http fetch GET 200 https://registry.npmjs.org/css-stringify 49ms
+88 http fetch GET 200 https://registry.npmjs.org/wordwrap 42ms
+89 http fetch GET 200 https://registry.npmjs.org/amdefine 44ms
+90 silly pacote version manifest for css-stringify@1.0.5 fetched in 85ms
+91 silly pacote range manifest for wordwrap@~0.0.2 fetched in 74ms
+92 silly pacote range manifest for amdefine@>=0.0.4 fetched in 75ms
+93 http fetch GET 200 https://registry.npmjs.org/cliui 60ms
+94 http fetch GET 200 https://registry.npmjs.org/window-size 60ms
+95 http fetch GET 200 https://registry.npmjs.org/decamelize 78ms
+96 silly pacote range manifest for cliui@^2.1.0 fetched in 85ms
+97 silly pacote version manifest for window-size@0.1.0 fetched in 85ms
+98 http fetch GET 304 https://registry.npmjs.org/camelcase 101ms (from cache)
+99 silly pacote range manifest for decamelize@^1.0.0 fetched in 106ms
+100 http fetch GET 304 https://registry.npmjs.org/minimist 315ms (from cache)
+101 silly pacote version manifest for wordwrap@0.0.2 fetched in 20ms
+102 silly pacote version manifest for minimist@0.0.8 fetched in 318ms
+103 silly pacote range manifest for camelcase@^1.0.2 fetched in 114ms
+104 http fetch GET 200 https://registry.npmjs.org/right-align 30ms
+105 silly pacote range manifest for right-align@^0.1.1 fetched in 37ms
+106 http fetch GET 200 https://registry.npmjs.org/align-text 48ms
+107 http fetch GET 200 https://registry.npmjs.org/center-align 87ms
+108 silly pacote range manifest for align-text@^0.1.1 fetched in 69ms
+109 silly pacote range manifest for center-align@^0.1.1 fetched in 115ms
+110 silly pacote range manifest for align-text@^0.1.3 fetched in 13ms
+111 http fetch GET 200 https://registry.npmjs.org/lazy-cache 77ms
+112 http fetch GET 200 https://registry.npmjs.org/longest 81ms
+113 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz 500ms
+114 http fetch GET 200 https://registry.npmjs.org/promise/-/promise-6.1.0.tgz 505ms
+115 silly pacote range manifest for lazy-cache@^1.0.3 fetched in 98ms
+116 silly pacote range manifest for longest@^1.0.1 fetched in 102ms
+117 silly pacote range manifest for source-map@0.4.x fetched in 976ms
+118 http fetch GET 304 https://registry.npmjs.org/kind-of 104ms (from cache)
+119 http fetch GET 304 https://registry.npmjs.org/repeat-string 122ms (from cache)
+120 silly pacote range manifest for promise@^6.0.1 fetched in 547ms
+121 silly pacote range manifest for kind-of@^3.0.2 fetched in 143ms
+122 silly pacote range manifest for repeat-string@^1.5.2 fetched in 142ms
+123 http fetch GET 200 https://registry.npmjs.org/asap 45ms
+124 silly pacote range manifest for asap@~1.0.0 fetched in 48ms
+125 http fetch GET 304 https://registry.npmjs.org/is-buffer 74ms (from cache)
+126 silly pacote range manifest for is-buffer@^1.1.5 fetched in 75ms
+127 silly pacote range manifest for cookie-parser@~1.4.3 fetched in 5ms
+128 silly resolveWithNewModule cookie-parser@1.4.4 checking installable status
+129 silly pacote range manifest for jade@~1.11.0 fetched in 7ms
+130 silly resolveWithNewModule jade@1.11.0 checking installable status
+131 silly pacote range manifest for morgan@~1.9.0 fetched in 8ms
+132 silly resolveWithNewModule morgan@1.9.1 checking installable status
+133 silly pacote version manifest for character-parser@1.2.1 fetched in 38ms
+134 silly resolveWithNewModule character-parser@1.2.1 checking installable status
+135 silly pacote range manifest for clean-css@^3.1.9 fetched in 39ms
+136 silly resolveWithNewModule clean-css@3.4.28 checking installable status
+137 silly pacote range manifest for commander@~2.6.0 fetched in 39ms
+138 silly resolveWithNewModule commander@2.6.0 checking installable status
+139 silly pacote range manifest for constantinople@~3.0.1 fetched in 40ms
+140 silly resolveWithNewModule constantinople@3.0.2 checking installable status
+141 silly pacote version manifest for jstransformer@0.0.2 fetched in 58ms
+142 silly resolveWithNewModule jstransformer@0.0.2 checking installable status
+143 silly pacote range manifest for mkdirp@~0.5.0 fetched in 58ms
+144 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+145 silly pacote version manifest for transformers@2.1.0 fetched in 59ms
+146 silly resolveWithNewModule transformers@2.1.0 checking installable status
+147 silly pacote range manifest for uglify-js@^2.4.19 fetched in 60ms
+148 silly resolveWithNewModule uglify-js@2.8.29 checking installable status
+149 silly pacote range manifest for void-elements@~2.0.1 fetched in 60ms
+150 silly resolveWithNewModule void-elements@2.0.1 checking installable status
+151 silly pacote range manifest for with@~4.0.0 fetched in 60ms
+152 silly resolveWithNewModule with@4.0.3 checking installable status
+153 silly pacote range manifest for commander@2.8.x fetched in 2ms
+154 silly resolveWithNewModule commander@2.8.1 checking installable status
+155 silly pacote range manifest for source-map@0.4.x fetched in 2ms
+156 silly resolveWithNewModule source-map@0.4.4 checking installable status
+157 silly pacote range manifest for graceful-readlink@>= 1.0.0 fetched in 1ms
+158 silly resolveWithNewModule graceful-readlink@1.0.1 checking installable status
+159 silly pacote range manifest for amdefine@>=0.0.4 fetched in 1ms
+160 silly resolveWithNewModule amdefine@1.0.1 checking installable status
+161 silly pacote range manifest for acorn@^2.1.0 fetched in 2ms
+162 silly resolveWithNewModule acorn@2.7.0 checking installable status
+163 silly pacote range manifest for is-promise@^2.0.0 fetched in 1ms
+164 silly resolveWithNewModule is-promise@2.1.0 checking installable status
+165 silly pacote range manifest for promise@^6.0.1 fetched in 3ms
+166 silly resolveWithNewModule promise@6.1.0 checking installable status
+167 silly pacote range manifest for asap@~1.0.0 fetched in 2ms
+168 silly resolveWithNewModule asap@1.0.0 checking installable status
+169 silly pacote version manifest for minimist@0.0.8 fetched in 1ms
+170 silly resolveWithNewModule minimist@0.0.8 checking installable status
+171 silly pacote range manifest for promise@~2.0 fetched in 12ms
+172 silly resolveWithNewModule promise@2.0.0 checking installable status
+173 silly pacote range manifest for css@~1.0.8 fetched in 13ms
+174 silly resolveWithNewModule css@1.0.8 checking installable status
+175 silly pacote range manifest for uglify-js@~2.2.5 fetched in 13ms
+176 silly resolveWithNewModule uglify-js@2.2.5 checking installable status
+177 silly pacote version manifest for css-parse@1.0.4 fetched in 2ms
+178 silly resolveWithNewModule css-parse@1.0.4 checking installable status
+179 silly pacote version manifest for css-stringify@1.0.5 fetched in 9ms
+180 silly resolveWithNewModule css-stringify@1.0.5 checking installable status
+181 silly pacote range manifest for is-promise@~1 fetched in 1ms
+182 silly resolveWithNewModule is-promise@1.0.1 checking installable status
+183 silly pacote range manifest for source-map@~0.1.7 fetched in 6ms
+184 silly resolveWithNewModule source-map@0.1.43 checking installable status
+185 silly pacote range manifest for optimist@~0.3.5 fetched in 7ms
+186 silly resolveWithNewModule optimist@0.3.7 checking installable status
+187 silly pacote range manifest for wordwrap@~0.0.2 fetched in 1ms
+188 silly resolveWithNewModule wordwrap@0.0.3 checking installable status
+189 silly pacote range manifest for source-map@~0.5.1 fetched in 3ms
+190 silly resolveWithNewModule source-map@0.5.7 checking installable status
+191 silly pacote range manifest for yargs@~3.10.0 fetched in 4ms
+192 silly resolveWithNewModule yargs@3.10.0 checking installable status
+193 silly pacote range manifest for uglify-to-browserify@~1.0.0 fetched in 10ms
+194 silly resolveWithNewModule uglify-to-browserify@1.0.2 checking installable status
+195 silly pacote range manifest for camelcase@^1.0.2 fetched in 3ms
+196 silly resolveWithNewModule camelcase@1.2.1 checking installable status
+197 silly pacote range manifest for cliui@^2.1.0 fetched in 4ms
+198 silly resolveWithNewModule cliui@2.1.0 checking installable status
+199 silly pacote range manifest for decamelize@^1.0.0 fetched in 4ms
+200 silly resolveWithNewModule decamelize@1.2.0 checking installable status
+201 silly pacote version manifest for window-size@0.1.0 fetched in 5ms
+202 silly resolveWithNewModule window-size@0.1.0 checking installable status
+203 silly pacote range manifest for center-align@^0.1.1 fetched in 2ms
+204 silly resolveWithNewModule center-align@0.1.3 checking installable status
+205 silly pacote range manifest for right-align@^0.1.1 fetched in 3ms
+206 silly resolveWithNewModule right-align@0.1.3 checking installable status
+207 silly pacote version manifest for wordwrap@0.0.2 fetched in 3ms
+208 silly resolveWithNewModule wordwrap@0.0.2 checking installable status
+209 silly pacote range manifest for align-text@^0.1.3 fetched in 8ms
+210 silly resolveWithNewModule align-text@0.1.4 checking installable status
+211 silly pacote range manifest for lazy-cache@^1.0.3 fetched in 8ms
+212 silly resolveWithNewModule lazy-cache@1.0.4 checking installable status
+213 silly pacote range manifest for kind-of@^3.0.2 fetched in 5ms
+214 silly resolveWithNewModule kind-of@3.2.2 checking installable status
+215 silly pacote range manifest for longest@^1.0.1 fetched in 5ms
+216 silly resolveWithNewModule longest@1.0.1 checking installable status
+217 silly pacote range manifest for repeat-string@^1.5.2 fetched in 6ms
+218 silly resolveWithNewModule repeat-string@1.6.1 checking installable status
+219 silly pacote range manifest for is-buffer@^1.1.5 fetched in 1ms
+220 silly resolveWithNewModule is-buffer@1.1.6 checking installable status
+221 silly pacote range manifest for acorn@^1.0.1 fetched in 2ms
+222 silly resolveWithNewModule acorn@1.2.2 checking installable status
+223 silly pacote range manifest for acorn-globals@^1.0.3 fetched in 5ms
+224 silly resolveWithNewModule acorn-globals@1.0.9 checking installable status
+225 silly pacote range manifest for basic-auth@~2.0.0 fetched in 1ms
+226 silly resolveWithNewModule basic-auth@2.0.1 checking installable status
+227 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 2299ms
+228 timing stage:loadIdealTree Completed in 2625ms
+229 silly currentTree ubuntu@0.0.0
+229 silly currentTree ├── accepts@1.3.5
+229 silly currentTree ├── array-flatten@1.1.1
+229 silly currentTree ├── async@2.6.1
+229 silly currentTree ├── bluebird@3.5.1
+229 silly currentTree ├── body-parser@1.18.3
+229 silly currentTree ├── bson@1.1.0
+229 silly currentTree ├── bytes@3.0.0
+229 silly currentTree ├── connect-flash@0.1.1
+229 silly currentTree ├── content-disposition@0.5.2
+229 silly currentTree ├── content-type@1.0.4
+229 silly currentTree ├── cookie-signature@1.0.6
+229 silly currentTree ├── cookie@0.3.1
+229 silly currentTree ├── crc@3.4.4
+229 silly currentTree ├── debug@2.6.9
+229 silly currentTree ├── depd@1.1.2
+229 silly currentTree ├── destroy@1.0.4
+229 silly currentTree ├── ee-first@1.1.1
+229 silly currentTree ├── encodeurl@1.0.2
+229 silly currentTree ├── escape-html@1.0.3
+229 silly currentTree ├── etag@1.8.1
+229 silly currentTree ├── express-message@1.1.1
+229 silly currentTree ├── express-session@1.15.6
+229 silly currentTree ├── express-validator@5.3.1
+229 silly currentTree ├── express@4.16.4
+229 silly currentTree ├── finalhandler@1.1.1
+229 silly currentTree ├── forwarded@0.1.2
+229 silly currentTree ├── fresh@0.5.2
+229 silly currentTree ├── http-errors@1.6.3
+229 silly currentTree ├── iconv-lite@0.4.23
+229 silly currentTree ├── inherits@2.0.3
+229 silly currentTree ├── ipaddr.js@1.8.0
+229 silly currentTree ├── jpv@2.0.1
+229 silly currentTree ├── kareem@2.3.0
+229 silly currentTree ├── lodash@4.17.11
+229 silly currentTree ├── media-typer@0.3.0
+229 silly currentTree ├── memory-pager@1.5.0
+229 silly currentTree ├── merge-descriptors@1.0.1
+229 silly currentTree ├── methods@1.1.2
+229 silly currentTree ├── mime-db@1.38.0
+229 silly currentTree ├── mime-types@2.1.22
+229 silly currentTree ├── mime@1.4.1
+229 silly currentTree ├── mongodb-core@3.1.11
+229 silly currentTree ├── mongodb@3.1.13
+229 silly currentTree ├── mongoose-legacy-pluralize@1.0.2
+229 silly currentTree ├─┬ mongoose@5.4.16
+229 silly currentTree │ └── ms@2.1.1
+229 silly currentTree ├── mpath@0.5.1
+229 silly currentTree ├─┬ mquery@3.2.0
+229 silly currentTree │ └── debug@3.1.0
+229 silly currentTree ├── ms@2.0.0
+229 silly currentTree ├── negotiator@0.6.1
+229 silly currentTree ├── on-finished@2.3.0
+229 silly currentTree ├── on-headers@1.0.2
+229 silly currentTree ├── parseurl@1.3.2
+229 silly currentTree ├── passport-http@0.3.0
+229 silly currentTree ├── passport-local@1.0.0
+229 silly currentTree ├── passport-strategy@1.0.0
+229 silly currentTree ├── passport@0.4.0
+229 silly currentTree ├── path-to-regexp@0.1.7
+229 silly currentTree ├── pause@0.0.1
+229 silly currentTree ├── proxy-addr@2.0.4
+229 silly currentTree ├── qs@6.5.2
+229 silly currentTree ├── random-bytes@1.0.0
+229 silly currentTree ├── range-parser@1.2.0
+229 silly currentTree ├── raw-body@2.3.3
+229 silly currentTree ├── regexp-clone@0.0.1
+229 silly currentTree ├── require_optional@1.0.1
+229 silly currentTree ├── resolve-from@2.0.0
+229 silly currentTree ├── safe-buffer@5.1.2
+229 silly currentTree ├── safer-buffer@2.1.2
+229 silly currentTree ├── saslprep@1.0.2
+229 silly currentTree ├── semver@5.6.0
+229 silly currentTree ├── send@0.16.2
+229 silly currentTree ├── serve-static@1.13.2
+229 silly currentTree ├── setprototypeof@1.1.0
+229 silly currentTree ├── sliced@1.0.1
+229 silly currentTree ├── sparse-bitfield@3.0.3
+229 silly currentTree ├── statuses@1.4.0
+229 silly currentTree ├── type-is@1.6.16
+229 silly currentTree ├── uid-safe@2.1.5
+229 silly currentTree ├── unpipe@1.0.0
+229 silly currentTree ├── utils-merge@1.0.1
+229 silly currentTree ├── validator@10.11.0
+229 silly currentTree └── vary@1.1.2
+230 silly idealTree ubuntu@0.0.0
+230 silly idealTree ├── accepts@1.3.5
+230 silly idealTree ├── acorn-globals@1.0.9
+230 silly idealTree ├── acorn@2.7.0
+230 silly idealTree ├── align-text@0.1.4
+230 silly idealTree ├── amdefine@1.0.1
+230 silly idealTree ├── array-flatten@1.1.1
+230 silly idealTree ├── asap@1.0.0
+230 silly idealTree ├── async@2.6.1
+230 silly idealTree ├── basic-auth@2.0.1
+230 silly idealTree ├── bluebird@3.5.1
+230 silly idealTree ├── body-parser@1.18.3
+230 silly idealTree ├── bson@1.1.0
+230 silly idealTree ├── bytes@3.0.0
+230 silly idealTree ├── camelcase@1.2.1
+230 silly idealTree ├── center-align@0.1.3
+230 silly idealTree ├── character-parser@1.2.1
+230 silly idealTree ├─┬ clean-css@3.4.28
+230 silly idealTree │ └── commander@2.8.1
+230 silly idealTree ├─┬ cliui@2.1.0
+230 silly idealTree │ └── wordwrap@0.0.2
+230 silly idealTree ├── commander@2.6.0
+230 silly idealTree ├── connect-flash@0.1.1
+230 silly idealTree ├── constantinople@3.0.2
+230 silly idealTree ├── content-disposition@0.5.2
+230 silly idealTree ├── content-type@1.0.4
+230 silly idealTree ├── cookie-signature@1.0.6
+230 silly idealTree ├── cookie@0.3.1
+230 silly idealTree ├── crc@3.4.4
+230 silly idealTree ├── css-parse@1.0.4
+230 silly idealTree ├── css-stringify@1.0.5
+230 silly idealTree ├── css@1.0.8
+230 silly idealTree ├── debug@2.6.9
+230 silly idealTree ├── decamelize@1.2.0
+230 silly idealTree ├── depd@1.1.2
+230 silly idealTree ├── destroy@1.0.4
+230 silly idealTree ├── ee-first@1.1.1
+230 silly idealTree ├── encodeurl@1.0.2
+230 silly idealTree ├── escape-html@1.0.3
+230 silly idealTree ├── etag@1.8.1
+230 silly idealTree ├── express-message@1.1.1
+230 silly idealTree ├── express-session@1.15.6
+230 silly idealTree ├── express-validator@5.3.1
+230 silly idealTree ├── express@4.16.4
+230 silly idealTree ├── finalhandler@1.1.1
+230 silly idealTree ├── forwarded@0.1.2
+230 silly idealTree ├── fresh@0.5.2
+230 silly idealTree ├── graceful-readlink@1.0.1
+230 silly idealTree ├── http-errors@1.6.3
+230 silly idealTree ├── iconv-lite@0.4.23
+230 silly idealTree ├── inherits@2.0.3
+230 silly idealTree ├── ipaddr.js@1.8.0
+230 silly idealTree ├── is-buffer@1.1.6
+230 silly idealTree ├── is-promise@2.1.0
+230 silly idealTree ├── jade@1.11.0
+230 silly idealTree ├── jpv@2.0.1
+230 silly idealTree ├── jstransformer@0.0.2
+230 silly idealTree ├── kareem@2.3.0
+230 silly idealTree ├── kind-of@3.2.2
+230 silly idealTree ├── lazy-cache@1.0.4
+230 silly idealTree ├── lodash@4.17.11
+230 silly idealTree ├── longest@1.0.1
+230 silly idealTree ├── media-typer@0.3.0
+230 silly idealTree ├── memory-pager@1.5.0
+230 silly idealTree ├── merge-descriptors@1.0.1
+230 silly idealTree ├── methods@1.1.2
+230 silly idealTree ├── mime-db@1.38.0
+230 silly idealTree ├── mime-types@2.1.22
+230 silly idealTree ├── mime@1.4.1
+230 silly idealTree ├── minimist@0.0.8
+230 silly idealTree ├── mkdirp@0.5.1
+230 silly idealTree ├── mongodb-core@3.1.11
+230 silly idealTree ├── mongodb@3.1.13
+230 silly idealTree ├── mongoose-legacy-pluralize@1.0.2
+230 silly idealTree ├─┬ mongoose@5.4.16
+230 silly idealTree │ └── ms@2.1.1
+230 silly idealTree ├── morgan@1.9.1
+230 silly idealTree ├── mpath@0.5.1
+230 silly idealTree ├─┬ mquery@3.2.0
+230 silly idealTree │ └── debug@3.1.0
+230 silly idealTree ├── ms@2.0.0
+230 silly idealTree ├── negotiator@0.6.1
+230 silly idealTree ├── on-finished@2.3.0
+230 silly idealTree ├── on-headers@1.0.2
+230 silly idealTree ├── optimist@0.3.7
+230 silly idealTree ├── parseurl@1.3.2
+230 silly idealTree ├── passport-http@0.3.0
+230 silly idealTree ├── passport-local@1.0.0
+230 silly idealTree ├── passport-strategy@1.0.0
+230 silly idealTree ├── passport@0.4.0
+230 silly idealTree ├── path-to-regexp@0.1.7
+230 silly idealTree ├── pause@0.0.1
+230 silly idealTree ├── promise@6.1.0
+230 silly idealTree ├── proxy-addr@2.0.4
+230 silly idealTree ├── qs@6.5.2
+230 silly idealTree ├── random-bytes@1.0.0
+230 silly idealTree ├── range-parser@1.2.0
+230 silly idealTree ├── raw-body@2.3.3
+230 silly idealTree ├── regexp-clone@0.0.1
+230 silly idealTree ├── repeat-string@1.6.1
+230 silly idealTree ├── require_optional@1.0.1
+230 silly idealTree ├── resolve-from@2.0.0
+230 silly idealTree ├── right-align@0.1.3
+230 silly idealTree ├── safe-buffer@5.1.2
+230 silly idealTree ├── safer-buffer@2.1.2
+230 silly idealTree ├── saslprep@1.0.2
+230 silly idealTree ├── semver@5.6.0
+230 silly idealTree ├── send@0.16.2
+230 silly idealTree ├── serve-static@1.13.2
+230 silly idealTree ├── setprototypeof@1.1.0
+230 silly idealTree ├── sliced@1.0.1
+230 silly idealTree ├── source-map@0.4.4
+230 silly idealTree ├── sparse-bitfield@3.0.3
+230 silly idealTree ├── statuses@1.4.0
+230 silly idealTree ├─┬ transformers@2.1.0
+230 silly idealTree │ ├── is-promise@1.0.1
+230 silly idealTree │ ├── promise@2.0.0
+230 silly idealTree │ ├── source-map@0.1.43
+230 silly idealTree │ └── uglify-js@2.2.5
+230 silly idealTree ├── type-is@1.6.16
+230 silly idealTree ├─┬ uglify-js@2.8.29
+230 silly idealTree │ └── source-map@0.5.7
+230 silly idealTree ├── uglify-to-browserify@1.0.2
+230 silly idealTree ├── uid-safe@2.1.5
+230 silly idealTree ├── unpipe@1.0.0
+230 silly idealTree ├── utils-merge@1.0.1
+230 silly idealTree ├── validator@10.11.0
+230 silly idealTree ├── vary@1.1.2
+230 silly idealTree ├── void-elements@2.0.1
+230 silly idealTree ├── window-size@0.1.0
+230 silly idealTree ├─┬ with@4.0.3
+230 silly idealTree │ └── acorn@1.2.2
+230 silly idealTree ├── wordwrap@0.0.3
+230 silly idealTree └── yargs@3.10.0
+231 silly install generateActionsToTake
+232 warn checkPermissions Missing write access to /home/ubuntu/node_modules
+233 timing stage:rollbackFailedOptional Completed in 0ms
+234 timing stage:runTopLevelLifecycles Completed in 3349ms
+235 silly saveTree ubuntu@0.0.0
+235 silly saveTree ├── connect-flash@0.1.1
+235 silly saveTree ├─┬ debug@2.6.9
+235 silly saveTree │ └── ms@2.0.0
+235 silly saveTree ├─┬ express-message@1.1.1
+235 silly saveTree │ └── jpv@2.0.1
+235 silly saveTree ├─┬ express-session@1.15.6
+235 silly saveTree │ ├── cookie-signature@1.0.6
+235 silly saveTree │ ├── cookie@0.3.1
+235 silly saveTree │ ├── crc@3.4.4
+235 silly saveTree │ ├── depd@1.1.2
+235 silly saveTree │ ├── on-headers@1.0.2
+235 silly saveTree │ ├── parseurl@1.3.2
+235 silly saveTree │ ├─┬ uid-safe@2.1.5
+235 silly saveTree │ │ └── random-bytes@1.0.0
+235 silly saveTree │ └── utils-merge@1.0.1
+235 silly saveTree ├─┬ express-validator@5.3.1
+235 silly saveTree │ ├── lodash@4.17.11
+235 silly saveTree │ └── validator@10.11.0
+235 silly saveTree ├─┬ express@4.16.4
+235 silly saveTree │ ├─┬ accepts@1.3.5
+235 silly saveTree │ │ ├─┬ mime-types@2.1.22
+235 silly saveTree │ │ │ └── mime-db@1.38.0
+235 silly saveTree │ │ └── negotiator@0.6.1
+235 silly saveTree │ ├── array-flatten@1.1.1
+235 silly saveTree │ ├─┬ body-parser@1.18.3
+235 silly saveTree │ │ ├── bytes@3.0.0
+235 silly saveTree │ │ ├── content-type@1.0.4
+235 silly saveTree │ │ ├─┬ http-errors@1.6.3
+235 silly saveTree │ │ │ ├── inherits@2.0.3
+235 silly saveTree │ │ │ ├── setprototypeof@1.1.0
+235 silly saveTree │ │ │ └── statuses@1.4.0
+235 silly saveTree │ │ ├─┬ iconv-lite@0.4.23
+235 silly saveTree │ │ │ └── safer-buffer@2.1.2
+235 silly saveTree │ │ ├─┬ on-finished@2.3.0
+235 silly saveTree │ │ │ └── ee-first@1.1.1
+235 silly saveTree │ │ ├── qs@6.5.2
+235 silly saveTree │ │ ├─┬ raw-body@2.3.3
+235 silly saveTree │ │ │ └── unpipe@1.0.0
+235 silly saveTree │ │ └─┬ type-is@1.6.16
+235 silly saveTree │ │   └── media-typer@0.3.0
+235 silly saveTree │ ├── content-disposition@0.5.2
+235 silly saveTree │ ├── content-type@1.0.4
+235 silly saveTree │ ├── encodeurl@1.0.2
+235 silly saveTree │ ├── escape-html@1.0.3
+235 silly saveTree │ ├── etag@1.8.1
+235 silly saveTree │ ├── finalhandler@1.1.1
+235 silly saveTree │ ├── fresh@0.5.2
+235 silly saveTree │ ├── merge-descriptors@1.0.1
+235 silly saveTree │ ├── methods@1.1.2
+235 silly saveTree │ ├── on-finished@2.3.0
+235 silly saveTree │ ├── path-to-regexp@0.1.7
+235 silly saveTree │ ├─┬ proxy-addr@2.0.4
+235 silly saveTree │ │ ├── forwarded@0.1.2
+235 silly saveTree │ │ └── ipaddr.js@1.8.0
+235 silly saveTree │ ├── qs@6.5.2
+235 silly saveTree │ ├── range-parser@1.2.0
+235 silly saveTree │ ├── safe-buffer@5.1.2
+235 silly saveTree │ ├─┬ send@0.16.2
+235 silly saveTree │ │ ├── destroy@1.0.4
+235 silly saveTree │ │ └── mime@1.4.1
+235 silly saveTree │ ├── serve-static@1.13.2
+235 silly saveTree │ ├── setprototypeof@1.1.0
+235 silly saveTree │ ├── statuses@1.4.0
+235 silly saveTree │ ├── type-is@1.6.16
+235 silly saveTree │ └── vary@1.1.2
+235 silly saveTree ├── http-errors@1.6.3
+235 silly saveTree ├─┬ jade@1.11.0
+235 silly saveTree │ ├── character-parser@1.2.1
+235 silly saveTree │ ├─┬ clean-css@3.4.28
+235 silly saveTree │ │ ├─┬ commander@2.8.1
+235 silly saveTree │ │ │ └── graceful-readlink@1.0.1
+235 silly saveTree │ │ └─┬ source-map@0.4.4
+235 silly saveTree │ │   └── amdefine@1.0.1
+235 silly saveTree │ ├── commander@2.6.0
+235 silly saveTree │ ├─┬ constantinople@3.0.2
+235 silly saveTree │ │ └── acorn@2.7.0
+235 silly saveTree │ ├─┬ jstransformer@0.0.2
+235 silly saveTree │ │ ├── is-promise@2.1.0
+235 silly saveTree │ │ └─┬ promise@6.1.0
+235 silly saveTree │ │   └── asap@1.0.0
+235 silly saveTree │ ├─┬ mkdirp@0.5.1
+235 silly saveTree │ │ └── minimist@0.0.8
+235 silly saveTree │ ├─┬ transformers@2.1.0
+235 silly saveTree │ │ ├─┬ css@1.0.8
+235 silly saveTree │ │ │ ├── css-parse@1.0.4
+235 silly saveTree │ │ │ └── css-stringify@1.0.5
+235 silly saveTree │ │ ├─┬ promise@2.0.0
+235 silly saveTree │ │ │ └── is-promise@1.0.1
+235 silly saveTree │ │ └─┬ uglify-js@2.2.5
+235 silly saveTree │ │   ├─┬ optimist@0.3.7
+235 silly saveTree │ │   │ └── wordwrap@0.0.3
+235 silly saveTree │ │   └── source-map@0.1.43
+235 silly saveTree │ ├─┬ uglify-js@2.8.29
+235 silly saveTree │ │ ├── source-map@0.5.7
+235 silly saveTree │ │ ├── uglify-to-browserify@1.0.2
+235 silly saveTree │ │ └─┬ yargs@3.10.0
+235 silly saveTree │ │   ├── camelcase@1.2.1
+235 silly saveTree │ │   ├─┬ cliui@2.1.0
+235 silly saveTree │ │   │ ├─┬ center-align@0.1.3
+235 silly saveTree │ │   │ │ ├─┬ align-text@0.1.4
+235 silly saveTree │ │   │ │ │ ├─┬ kind-of@3.2.2
+235 silly saveTree │ │   │ │ │ │ └── is-buffer@1.1.6
+235 silly saveTree │ │   │ │ │ ├── longest@1.0.1
+235 silly saveTree │ │   │ │ │ └── repeat-string@1.6.1
+235 silly saveTree │ │   │ │ └── lazy-cache@1.0.4
+235 silly saveTree │ │   │ ├── right-align@0.1.3
+235 silly saveTree │ │   │ └── wordwrap@0.0.2
+235 silly saveTree │ │   ├── decamelize@1.2.0
+235 silly saveTree │ │   └── window-size@0.1.0
+235 silly saveTree │ ├── void-elements@2.0.1
+235 silly saveTree │ └─┬ with@4.0.3
+235 silly saveTree │   ├── acorn-globals@1.0.9
+235 silly saveTree │   └── acorn@1.2.2
+235 silly saveTree ├─┬ mongodb@3.1.13
+235 silly saveTree │ └─┬ mongodb-core@3.1.11
+235 silly saveTree │   ├── bson@1.1.0
+235 silly saveTree │   ├─┬ require_optional@1.0.1
+235 silly saveTree │   │ ├── resolve-from@2.0.0
+235 silly saveTree │   │ └── semver@5.6.0
+235 silly saveTree │   └─┬ saslprep@1.0.2
+235 silly saveTree │     └─┬ sparse-bitfield@3.0.3
+235 silly saveTree │       └── memory-pager@1.5.0
+235 silly saveTree ├─┬ mongoose@5.4.16
+235 silly saveTree │ ├── async@2.6.1
+235 silly saveTree │ ├── kareem@2.3.0
+235 silly saveTree │ ├── mongoose-legacy-pluralize@1.0.2
+235 silly saveTree │ ├── mpath@0.5.1
+235 silly saveTree │ ├─┬ mquery@3.2.0
+235 silly saveTree │ │ ├── bluebird@3.5.1
+235 silly saveTree │ │ ├── debug@3.1.0
+235 silly saveTree │ │ ├── regexp-clone@0.0.1
+235 silly saveTree │ │ └── sliced@1.0.1
+235 silly saveTree │ ├── ms@2.1.1
+235 silly saveTree │ ├── regexp-clone@0.0.1
+235 silly saveTree │ └── sliced@1.0.1
+235 silly saveTree ├─┬ morgan@1.9.1
+235 silly saveTree │ └── basic-auth@2.0.1
+235 silly saveTree ├─┬ passport-http@0.3.0
+235 silly saveTree │ └── passport-strategy@1.0.0
+235 silly saveTree ├── passport-local@1.0.0
+235 silly saveTree └─┬ passport@0.4.0
+235 silly saveTree   └── pause@0.0.1
+236 verbose stack Error: EACCES: permission denied, access '/home/ubuntu/node_modules'
+237 verbose cwd /home/ubuntu
+238 verbose Linux 4.15.0-22-generic
+239 verbose argv "/usr/bin/node" "/usr/bin/npm" "uninstall" "cookie-parser"
+240 verbose node v10.15.1
+241 verbose npm  v6.4.1
+242 error path /home/ubuntu/node_modules
+243 error code EACCES
+244 error errno -13
+245 error syscall access
+246 error Error: EACCES: permission denied, access '/home/ubuntu/node_modules'
+246 error  { [Error: EACCES: permission denied, access '/home/ubuntu/node_modules']
+246 error   stack:
+246 error    'Error: EACCES: permission denied, access \'/home/ubuntu/node_modules\'',
+246 error   errno: -13,
+246 error   code: 'EACCES',
+246 error   syscall: 'access',
+246 error   path: '/home/ubuntu/node_modules' }
+247 error The operation was rejected by your operating system.
+247 error It is likely you do not have the permissions to access this file as the current user
+247 error
+247 error If you believe this might be a permissions issue, please double-check the
+247 error permissions of the file and its containing directories, or try running
+247 error the command again as root/Administrator (though this is not recommended).
+248 verbose exit [ -13, true ]
