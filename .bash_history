@@ -77,3 +77,52 @@ clear
 sudo nodemon index.js
 sudo npm install --save cookie-parser
 sudo nano index.js
+git init
+sudo git add --all
+la
+ls
+sudo git add --all
+sudo git commit -m "first commit"
+sudo git remote add origin https://github.com/APTXCassieZhu/warmup
+sudo git push -u origin master
+sudo git push -force -u origin master
+sudo git push --force -u origin master
+ls
+cd /log
+exit
+clear
+sudo npm --version
+clear
+sudo nodemon index.js
+sudo nano index.js
+sudo nano index.html
+sudo nano index.js
+sudo nodemon index.js
+sudo nano index.js
+sudo nodemon index.js
+clear
+sudo nano index.js
+ls
+cd views
+ls
+sudo nano index.jade
+sudo nano layout.jade
+sudo nano index.html
+cd ..
+sudo nano index.html
+cd views
+sudo nano index.html
+ls
+cd ..
+sudo nodemon index.js
+sudo nano index.js
+sudo nodemon index.js
+cd views
+ls
+sudo rm -i index.html
+ls
+clear
+cd ..
+sudo nano index.js
+sudo nodemon index.js
+sudo nano app.js
