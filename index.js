@@ -3,13 +3,16 @@ var app = express();
 var router = express.Router();
 var path = require('path');
 
+var bodyParser = require("body-parser");
+app.use(bodyParser.urlencoded({ extended: false }));
+
 //app.get('/', function(req, res){
 router.get('/', function(req, res){
      res.sendFile(path.join(__dirname+'/index.html'));
      //res.render('index', {title: 'Express'});
 });
 
-router.get('/login', function(req, res){
+app.post('/login', function(req, res){
 	var name = req.body.name;
 	res.send('Hi, '+name);
 });
