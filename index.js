@@ -7,14 +7,26 @@ var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
 
 //app.get('/', function(req, res){
-router.get('/', function(req, res){
-     res.sendFile(path.join(__dirname+'/index.html'));
-     //res.render('index', {title: 'Express'});
+router.get('/addUser', function(req, res){
+    res.sendFile(path.join(__dirname+'/index.html'));
+    
+    // Check Error
+    var err = req.validationErrors();
+    if(err){
+      res.render('addUser', {errors: err})
+    }
 });
 
 app.post('/login', function(req, res){
 	var name = req.body.name;
-	res.send('Hi, '+name);
+  res.send('Hi, '+name);
+
+  // Check Error
+  var err = req.validationErrors();
+  if(err){
+    res.render('')
+  }
+
 });
 
 router.get('/ttt/', function(req, res){
