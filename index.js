@@ -11,6 +11,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 //app.get('/', function(req, res){
 router.get('/', function(req, res){
     res.sendFile(path.join(__dirname+'/index.html'));
+});
+
+app.post('/login', function(req, res){
+    var name = req.body.name;
+    res.send('Hi, '+name);
     MongoClient.connect(url, function(err, db) {
       if (err) throw err;
       var dbo = db.db("warmup");
@@ -21,12 +26,6 @@ router.get('/', function(req, res){
         db.close();
       });
     });
-});
-
-app.post('/login', function(req, res){
-  var name = req.body.name;
-  res.send('Hi, '+name);
-
 
 });
 
