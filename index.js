@@ -18,6 +18,16 @@ app.use('/login', login);
 app.use('/adduser', adduser);
 //app.use('/verify', verify);
 
+// view engine setup
+var cons = require('consolidate');
+app.engine('html', cons.swig)
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'html');
+
+// use file
+app.use(express.static(__dirname + '/public'));
+
+
 app.get('/', function(req, res){
     res.sendFile(path.join(__dirname+'/views/index.html'));
 });
