@@ -2,3 +2,12 @@ use warmup
 db.createCollection('users')
 show collections
 show dbs
+use warmup
+show collections
+use warmup
+show warmup
+show users
+db.users.find().pretty()
+db.users.find()
+use warmup
+db.users.find().pretty()
