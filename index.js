@@ -11,12 +11,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // routers
 var login = require('./routes/login.js');
 var adduser = require('./routes/adduser.js');
-var verify = require('./routes/verify.js');
+//var verify = require('./routes/verify.js');
 
 // add api
 app.use('/login', login);
 app.use('/adduser', adduser);
-app.use('/verify', verify);
+//app.use('/verify', verify);
 
 app.get('/', function(req, res){
     res.sendFile(path.join(__dirname+'/views/index.html'));
@@ -42,7 +42,7 @@ MongoClient.connect(url, function(err, db) {
 });
 //});
 
-router.get('/ttt/', function(req, res){
+app.get('/ttt/', function(req, res){
     res.sendFile(path.join(__dirname+'/views/ttt/in.html'));
 });
 
@@ -65,4 +65,4 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(80);
-module.exports = router;
+//module.exports = router;

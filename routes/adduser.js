@@ -3,7 +3,7 @@ var router = express.Router();
 
 // get form data from req body
 var bodyParser = require("body-parser");
-app.use(bodyParser.urlencoded({ extended: false }));
+var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 // create application/json parser
 var jsonParser = bodyParser.json();
