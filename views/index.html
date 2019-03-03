@@ -1,14 +1,17 @@
 <!DOCTYPE HTML> <html>
         <head>
                 <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    		<script src="public/login.js"></script>
         </head>
         <body>
-		<form action="/login" method="post">
-		Name:<input name="name"type="text" /> <br />
-		email:<input name="name"type="text" /> <br />
-		password:<input name="name"type="text" /> <br />
-		<input type="submit" />
+		<form id="login" action="/login" method="post">
+		<p>Name:</p><input name="name" type="text" required/>
+		<br>
+		<p>password:</p><input name="psword" type="text" required/>
+		<br>
+		<br>
+		<input type="submit" value="log in" />
     		</form>        
         </body>
 </html>
