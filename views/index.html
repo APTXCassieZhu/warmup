@@ -1,6 +1,6 @@
 <!DOCTYPE HTML> <html>
         <head>
-                <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     		<script src="public/login.js"></script>
         </head>
@@ -8,12 +8,12 @@
 		<form id="login" action="/login" method="post">
 		<p>Name:</p><input name="name" type="text" required/>
 		<br>
-		<p>password:</p><input name="psword" type="text" required/>
+		<p>Password:</p><input name="psword" type="password" required/>
 		<br>
 		<br>
 		<input type="submit" value="log in" />
     		</form> 
 		<br>     
-		<button onclick="window.location.href='/adduser'">Sign up</button>     
+		<button class="btn" onclick="window.location.href='/adduser'">Sign up</button>     
         </body>
 </html>
