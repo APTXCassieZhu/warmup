@@ -50,7 +50,7 @@ function sendMail(data){
           pass: 'Cse356lalala'
       }
   });
-  var mailOpton = {
+  var mailData = {
       //from:'cse356@email.cloud.compas.cs.stonybrook.edu',
       from: 'cse356test@gmail.com',
       to: data.email,
@@ -58,7 +58,7 @@ function sendMail(data){
       text: "key"+data.key
   };
 
-  transporter.sendMail(mailOpton, function(error, info){
+  transporter.sendMail(mailData, function(error, info){
       if (error) {
         console.log("error is:");
         console.log(error);
