@@ -43,22 +43,10 @@ MongoClient.connect(url, function(err, db) {
     }
     var dbo = db.db("warmup");
     app.locals.db = dbo;
-    //var myobj = { name: req.body.name, email: req.body.name, psword: req.body.psword };
-    //dbo.collection("users").insertOne(myobj, function(err, res) {
-    //    if (err) throw err;
-    //    console.log("1 document inserted");
-    //    db.close();
-    //  });
 });
-//});
 
 app.get('/ttt/', function(req, res){
     res.sendFile(path.join(__dirname+'/views/ttt/in.html'));
 });
 
-
-
-
-
 app.listen(80);
-//module.exports = router;
