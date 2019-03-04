@@ -35,7 +35,7 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-btn, input[type=submit] {
+button, input[type=submit] {
   width: 50%;
   background-color: blue; /* Green */
   border: none;
