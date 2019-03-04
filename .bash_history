@@ -418,3 +418,43 @@ sudo git commit -m "connect to mongodb"
 sudo git push
 sudo nano app.js
 mongo
+git pull https://github.com/APTXCassieZhu/warmup
+sudo git pull https://github.com/APTXCassieZhu/warmup
+ls
+cd routes
+ls
+cd ~
+sudo nodemon index.js
+cd routers
+cd routes
+ls
+sudo nano adduser.js
+sudo nodemon index.js
+cd ~
+sudo nodemon index.js
+sudo nano index.js
+sudo nodemon index.js
+sudo nano index.js
+sudo nodemon index.js
+sudo nano index.js
+sudo nodemon index.js
+clear
+sudo nodemon index.js
+sudo nano index.js
+sudo nodemon index.js
+sudo git add --all
+sudo git commit -m "fix the index.js"
+sudo git push
+sudo git pull https://github.com/APTXCassieZhu/warmup
+nodemon index.js
+sudo nodemon index.js
+sudo git pull https://github.com/APTXCassieZhu/warmup
+clear
+sudo nodemon index.js
+sudo git pull https://github.com/APTXCassieZhu/warmup
+sudo nodemon index.js
+exit
+clear
+sudo git pull https://github.com/APTXCassieZhu/wp2
+ls
+exit
