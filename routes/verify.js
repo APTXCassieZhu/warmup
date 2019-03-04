@@ -21,6 +21,7 @@ router.post('/',jsonParser,function(req,res){
             json.status = 'ERROR';
         }else{
             console.log("result ruiqi is "+result);
+            console.log("ruiqi end");
             result=result[0];
             console.log(result.key);
             console.log(data.key);
