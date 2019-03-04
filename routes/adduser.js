@@ -17,7 +17,7 @@ router.get('/', function(req, res) {
 router.post('/', jsonParser, function(req, res) {
   json = {status:"OK"};
   data = req.body;
-  data['valide'] = "false";
+  data['valid'] = "false";
   data['key'] = Math.floor((Math.random() * 8999) + 1000);
 
   var db = req.app.locals.db;
@@ -32,7 +32,7 @@ router.post('/', jsonParser, function(req, res) {
       //sendMail(data);
       console.log(data);
   }
-  res.json({ status:'OK'});
+  res.send({status:'OK'});
   });
 });
 
