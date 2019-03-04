@@ -12,8 +12,6 @@ router.post('/',jsonParser,function(req,res){
     data = req.body;
     json = {'status':'OK'};
     console.log(data);
-    //console.log(data.email);
-    //console.log(data['key']);
     var db = req.app.locals.db;
     db.collection('user').find({'email': data['email'] 
     }).toArray(function(err, result){

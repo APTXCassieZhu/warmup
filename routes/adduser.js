@@ -25,7 +25,7 @@ router.post('/', jsonParser, function(req, res) {
   var db = req.app.locals.db;
   
   // add the new user to mongodb
-  db.collection("users").insertOne(data, function(err, result){
+  db.collection("user").insertOne(data, function(err, result){
     if (err) {
       console.log(err);
       json.status="ERROR";
@@ -55,7 +55,7 @@ function sendMail(data){
       from: 'cse356test@gmail.com',
       to: data.email,
       subject: "verify code",
-      text: "key"+data.key
+      text: "key: "+data.key
   };
 
   transporter.sendMail(mailData, function(error, info){
