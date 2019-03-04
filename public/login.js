@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    var login_form = $("#adduser");
+    var login_form = $("#login");
     login_form.submit( function(e) {
-        var login_data = {name: $('#name'), password: $('#psword')};
+        var login_data = {name: $('#name').val(), password: $('#psword').val()};
         e.preventDefault();
         $.ajax({
             type: login_form.attr('method'),

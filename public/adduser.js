@@ -12,7 +12,7 @@ $(document).ready(function(){
             success: function(data){
                 console.log(data);
                 if (data.status=='OK'){
-                    window.location.href='/'
+                    window.location.href='/verify'
                 }
             }
         })
