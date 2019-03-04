@@ -30,7 +30,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'html');
 
 // use file
-app.use(express.static(__dirname + '/public'));
+app.use("/public", express.static(__dirname + '/public'));
 
 app.get('/', function(req, res){
     res.sendFile(path.join(__dirname+'/views/index.html'));
