@@ -23,7 +23,7 @@ router.post('/', jsonParser, function(req, res) {
   var db = req.app.locals.db;
   
   // add the new user to mongodb
-  db.collection("users").insertOne(data, function(err, res){
+  db.collection("users").insertOne(data, function(err, res1){
     if (err) {
       console.log(err);
       json.status="ERROR";
@@ -32,7 +32,7 @@ router.post('/', jsonParser, function(req, res) {
       //sendMail(data);
       console.log(data);
   }
-  res.send({status:'OK'});
+  res.json({status:'OK'});
   });
 });
 

@@ -458,3 +458,7 @@ clear
 sudo git pull https://github.com/APTXCassieZhu/wp2
 ls
 exit
+sudo nodemon index.js
+git pull app.listen(port,'0.0.0.0', () => {
+sudo git pull https://github.com/APTXCassieZhu/warmup
+sudo nodemon index.js
