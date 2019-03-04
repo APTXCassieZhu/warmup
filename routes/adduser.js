@@ -23,7 +23,7 @@ router.post('/', jsonParser, function(req, res) {
   var db = req.app.locals.db;
   
   // add the new user to mongodb
-  db.collection("users").insertOne(data, function(err, res1){
+  db.collection("users").insertOne(data, function(err, result){
     if (err) {
       console.log(err);
       json.status="ERROR";
