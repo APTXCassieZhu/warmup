@@ -29,7 +29,7 @@ app.use(express.static(__dirname + '/public'));
 
 
 app.get('/', function(req, res){
-    res.sendFile(path.join(__dirname+'/..'+'/views/index.html'));
+    res.sendFile(path.join(__dirname+'/views/index.html'));
 });
 
 //app.post('/login', function(req, res){

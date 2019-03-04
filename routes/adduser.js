@@ -10,7 +10,7 @@ var jsonParser = bodyParser.json();
 
 // GET users listing.
 router.get('/', function(req, res, next) {
-  res.sendFile(path.join(__dirname+'/..'+'/views/adduser.html'));
+  res.sendFile(path.join(__dirname+'/views/adduser.html'));
 });
 
 router.post('/', jsonParser, function(req, res) {
