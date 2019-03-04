@@ -9,7 +9,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 var jsonParser = bodyParser.json();
 
 // GET users listing.
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res) {
   res.sendFile(path.join(__dirname+'/..'+'/views/adduser.html'));
 });
 
