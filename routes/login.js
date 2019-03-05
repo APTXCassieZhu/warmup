@@ -26,6 +26,8 @@ router.post('/', function(req, res) {
             json.status = 'ERROR';
         }else{
             // make sure that username is unique
+	    console.log("result is "+result);
+	    console.log(db);
             if(result.length == 1){
                 result = result[0];
                 // verify the user 
