@@ -5,7 +5,6 @@ var router = express.Router();
 
 // create application/json parser
 var jsonParser = bodyParser.json()
-var bodyParser = require('body-parser');
 
 // create application/x-www-form-urlencoded parser
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
@@ -19,6 +18,7 @@ router.get('/', function(req, res) {
 router.post('/', function(req, res) {
     data = req.body;
     json = {status:'OK'};
+    var db = req.app.locals.db;
     db.collection('user').find({'name': data['name'] 
     }).toArray(function(err, result){
         if(err){
