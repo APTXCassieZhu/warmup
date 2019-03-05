@@ -6,7 +6,7 @@ $(document).ready(function(){
         $.ajax({
             type: login_form.attr('method'),
             url: login_form.attr('action'),
-            data: JSON.stringify(adduser_data),
+            data: JSON.stringify(login_data),
             contentType:"application/json; charset=utf-8",
             dataType:"json",
             success: function(data){
