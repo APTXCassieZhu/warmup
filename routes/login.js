@@ -33,6 +33,9 @@ router.post('/', function(req, res) {
                 // verify the user 
                 if(result.password == data.password && result.valid == 'true'){
                     console.log("login success");
+                    req.session.current_user = result.username;
+                    req.session.status = 'online';
+                    console.log(req.session.current_user+" login");
                 }else{
                     console.log(result.username+'false to login');
                     json.status = 'ERROR'
